@@ -1,0 +1,58 @@
+# ERC Review Guidelines for Editors
+
+## Initial Assessment
+- Verify the ERC follows the standard template format
+- Check if the ERC number has been properly assigned
+- Confirm the ERC status is marked as "Draft"
+- Ensure all required sections are present (Abstract, Motivation, Specification, Rationale, Security Considerations)
+
+## Technical Review
+
+### Specification Quality
+- Validate that the technical specification is complete and unambiguous
+- Verify all technical terms are clearly defined
+- Check that the specification uses "MUST", "SHOULD", "MAY" keywords appropriately per RFC 2119
+- Ensure code examples (if any) are correct and follow Solidity style guidelines
+
+### Compatibility & Dependencies
+- Assess backward compatibility implications
+- Review dependencies on other ERCs or Ethereum standards
+- Verify compliance with referenced ERCs and specifications
+- Check for potential conflicts with existing standards
+
+### Security Analysis
+- Review security considerations section thoroughly
+- Look for potential attack vectors or vulnerabilities
+- Verify threat model assumptions
+- Check gas considerations and potential DoS vectors
+
+## Community & Process
+
+### Discussion Quality
+- Verify sufficient discussion has occurred on ethereum-magicians.org
+- Check for duplicate or similar existing ERCs
+- Review community feedback and author responses
+- Assess if major objections have been addressed
+
+### Implementation
+- Check if reference implementation exists (if required)
+- Verify test cases are provided
+- Review any real-world implementation examples
+- Assess deployment considerations
+
+## Final Checklist
+1. All sections are technically accurate and complete
+2. No ambiguities in specification
+3. Security considerations are comprehensive
+4. Community feedback has been adequately addressed
+5. Implementation details are sufficient
+6. Document is well-written and professionally formatted
+
+## Feedback Process
+- Provide clear, actionable feedback
+- Reference specific sections when commenting
+- Suggest concrete improvements
+- Be constructive and professional
+- Include both technical and editorial feedback
+
+Remember: The goal is to improve the quality of the ERC while maintaining a constructive dialogue with the author(s).
