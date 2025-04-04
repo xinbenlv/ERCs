@@ -1,0 +1,42 @@
+---
+description: Provides guidance for reviewing Ethereum ERC proposals
+globs: ["**/*.md"]
+---
+
+# ERC Review Guidelines
+
+This rule helps reviewers ensure ERC proposals meet community expectations and quality standards.
+
+## General Requirements
+
+- **EIP Formatting Compliance**: Ensure proposals follow the [EIP template](https://github.com/ethereum/EIPs/blob/master/eip-template.md), including Abstract, Motivation, Specification, Rationale, and Backwards Compatibility.
+
+- **Clarity and Precision**: Proposals must be clear, free of ambiguity, and technically sound.
+
+- **Security Considerations**: Authors must address any potential risks or security impacts in the "Security Considerations" section.
+
+- **Backward Compatibility**: Evaluate whether the proposal introduces breaking changes or incompatibilities.
+
+## Implementation Expectations
+
+- **Reference Implementation Required**: Authors **must include at least one working reference implementation** to advance an ERC to Review status.
+
+- **Independent Implementations for Final**: To progress to Final status, ERCs **should demonstrate adoption with at least two or three independent implementations**, depending on category (as proposed in your straw-man model).
+
+- **Real-World Usage Evidence**: Encourage proposals to be "tried in the field"—for example, integration in dapps, libraries, or tooling—to help reveal practical issues.
+
+## Review & Consensus
+
+- **Community Engagement**: Ensure authors have engaged in public discussion, ideally via Fellowship of Ethereum Magicians (FEM) or similar forums.
+
+- **Sufficient Feedback**: Check whether proposals have incorporated feedback from multiple stakeholders.
+
+- **Consensus Signals**: Help authors understand that advancing to Final may require signs of broad adoption or support, even if not formally quantified.
+
+## Editor Feedback Suggestions
+
+Encourage authors to:
+- Provide implementation links or GitHub repositories.
+- Share usage data or testimonials from adopters.
+- Clearly explain how their proposal aligns with or diverges from similar EIPs.
+- Discuss how feedback from the community has been addressed.
